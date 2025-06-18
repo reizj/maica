@@ -129,7 +129,7 @@ body {
 }
 
 .candle {
-  background-color: #7b020b;
+  background-color: #3674B5;
   width: 12px;
   height: 35px;
   border-radius: 6px/3px;
@@ -147,7 +147,7 @@ body {
   width: 12px;
   height: 6px;
   border-radius: 50%;
-  background-color: #ad030f;
+  background-color: #A1E3F9;
 }
 
 .candle.out .flame {
