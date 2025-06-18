@@ -117,11 +117,15 @@ function endlessConfetti() {
 document.querySelector(".blow-button").addEventListener('click', function () {
   Swal.fire({
     title: 'hbd og!',
-    text: 'Happiest Birthday, My Love ! God knows na sobrang grateful ako for having you in my life. Meeting you was the best thing in my life, & choosing to love you was the best decision I\'ve ever made. Thank you for choosing me as well. I appreciate you for being so understanding & for being my biggest supporter. Thank you for loving me even with my flaws. Thank you for being the most strong, hardworking & dedicated person I know. But I know things haven\'t always been easy for you but l\'m proud of you. I hope you never forget to appreciate yourself. Please be gentle and don\'t be harsh to yourself, learn to rest and don\'t let small things pressure you. And as I look at you now, I see someone who has come so far, and for that, I\'m so proud. You\'ve done a great job despite how tired and drained you are. Again, I\'m so proud of you, my love.',
+    html: `
+      <p>Happiest Birthday, My Love! God knows na sobrang grateful ako for having you in my life. Meeting you was the best thing in my life, & choosing to love you was the best decision I've ever made. Thank you for choosing me as well.</p>
+      <p>I appreciate you for being so understanding & for being my biggest supporter. Thank you for loving me even with my flaws. Thank you for being the most strong, hardworking & dedicated person I know. But I know things haven't always been easy for you but I'm proud of you. I hope you never forget to appreciate yourself. Please be gentle and don't be harsh to yourself, learn to rest and don't let small things pressure you. And as I look at you now, I see someone who has come so far, and for that, I'm so proud. You've done a great job despite how tired and drained you are. Again, I'm so proud of you, my love.</p>
+    `,
     iconHtml: `
       <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="100" height="100">
         <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="#ff6999"/>
-      </svg>`,
+      </svg>
+    `,
     customClass: {
       icon: 'custom-heart-icon',
       confirmButton: 'custom-confirm-btn',
@@ -130,3 +134,4 @@ document.querySelector(".blow-button").addEventListener('click', function () {
     confirmButtonText: 'Close'
   });
 });
+
