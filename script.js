@@ -121,6 +121,7 @@ document.querySelector(".blow-button").addEventListener('click', function () {
       <style>
         .swal2-container .swal2-html-container p {
           text-align: justify;
+          text-indent: 2em;
         }
       </style>
       <p>Happiest Birthday, My Love! God knows na sobrang grateful ako for having you in my life. Meeting you was the best thing in my life, & choosing to love you was the best decision I've ever made. Thank you for choosing me as well.</p>
