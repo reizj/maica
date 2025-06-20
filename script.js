@@ -125,6 +125,8 @@ document.querySelector(".blow-button").addEventListener('click', function () {
       </style>
       <p>Happiest Birthday, My Love! God knows na sobrang grateful ako for having you in my life. Meeting you was the best thing in my life, & choosing to love you was the best decision I've ever made. Thank you for choosing me as well.</p>
       <p>I appreciate you for being so understanding & for being my biggest supporter. Thank you for loving me even with my flaws. Thank you for being the most strong, hardworking & dedicated person I know. But I know things haven't always been easy for you but I'm proud of you. I hope you never forget to appreciate yourself. Please be gentle and don't be harsh to yourself, learn to rest and don't let small things pressure you. And as I look at you now, I see someone who has come so far, and for that, I'm so proud. You've done a great job despite how tired and drained you are. Again, I'm so proud of you, my love.</p>
+      <p>No matter how challenging things get, I genuinely want us to be together. I still have faith in us, regardless of how many storms and miscommunications we encounter. We’ve come this far, and deep down, I still see a future where it's you and me, growing, learning, and holding on together.</p>
+      <p>I'm not asking for a perfect relationship, but about choosing each other again & again even on the hard days. & in my heart, that's what I want, you and me, together, stronger than ever. Love, always remember na I love you so much, that even no words can explain how much I deeply value you here in my heart.</p>
     `,
     iconHtml: `
       <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="100" height="100">
@@ -139,5 +141,4 @@ document.querySelector(".blow-button").addEventListener('click', function () {
     confirmButtonText: 'Close'
   });
 });
-
 
