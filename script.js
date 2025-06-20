@@ -116,7 +116,6 @@ function endlessConfetti() {
 
 document.querySelector(".blow-button").addEventListener('click', function () {
   Swal.fire({
-    title: 'Happy Birthday, my love!',
     html: `
       <style>
         .swal2-container .swal2-html-container p {
